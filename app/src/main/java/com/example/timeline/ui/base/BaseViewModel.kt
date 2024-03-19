@@ -1,4 +1,8 @@
 package com.example.timeline.ui.base
 
-class BaseViewModel {
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
+
+abstract class BaseViewModel(application: Application) : AndroidViewModel(application){
+
 }

@@ -1,4 +1,5 @@
 package com.example.timeline.ui.common
 
-object KeyDelegate {
+enum class KeyDelegate {
+    WorkListTabDelegate,
 }
